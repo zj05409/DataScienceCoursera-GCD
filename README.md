@@ -27,8 +27,10 @@ This project is my answer to the course project at  https://www.coursera.org/lea
 
 After running this script, you will get a file named "ucihardata.txt", which contain a tidy data set.
 
-## The resulting dataset contains the following colomns:
+## Code Book
 ======================================
+
+The resulting dataset contains the following columns:
 
 - "subject" is the person id
 - "activity" is the type of the actions taken by the person, with the following values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
