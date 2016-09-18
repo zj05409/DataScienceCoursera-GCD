@@ -7,18 +7,18 @@ John Jay
 zj05409@qq.com
 ==================================================================
 
-The background
+## The background
 
 This project is my answer to the course project at  https://www.coursera.org/learn/data-cleaning/peer/FIZtT/getting-and-cleaning-data-course-project
 
-The dataset includes the following files:
+## The dataset includes the following files:
 =========================================
 
 - 'README.txt'
 
 - 'run_analysis.R': a script which merges and cleans the original data sets.
 
-The script do the following: 
+## The script do the following: 
 =========================================
 - merges the test, training, subjects and activities data sets from [1] http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 - extract the mean and std columns, 
@@ -27,8 +27,10 @@ The script do the following:
 
 After running this script, you will get a file named "ucihardata.txt", which contain a tidy data set.
 
-The resulting dataset contains the following colomns:
+## Code Book
 ======================================
+
+The resulting dataset contains the following columns:
 
 - "subject" is the person id
 - "activity" is the type of the actions taken by the person, with the following values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
@@ -67,11 +69,11 @@ The resulting dataset contains the following colomns:
 - "fBodyBodyGyroJerkMagMean" FFT of "tBodyBodyGyroJerkMagMean" 
 - "fBodyBodyGyroJerkMagStd" FFT of "tBodyBodyGyroJerkMagStd" 
 
-Notes: 
+## Notes: 
 ======
 - To run the script, you should first download the dataset from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and unzip it in the same folder as the script.
 
-References:
+## References:
 ========
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
